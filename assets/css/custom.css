@@ -15,7 +15,7 @@
     transition: transform 0.3s ease-out;
     margin-bottom: 50vh;
     /* Creates space between cards for scrolling effect */
-    transform-style: preserve-3d;
+    /* transform-style: preserve-3d; */
     will-change: transform;
 }
 
