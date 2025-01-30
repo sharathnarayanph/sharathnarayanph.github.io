@@ -1,0 +1,25 @@
+.sticky-top {
+    position: sticky;
+    top: 100px;
+}
+
+.scrolling-cards {
+    position: relative;
+    perspective: 1000px;
+    padding: 20px 0;
+}
+
+.scrolling-cards .card {
+    position: sticky;
+    top: 150px;
+    transition: transform 0.3s ease-out;
+    margin-bottom: 50vh;
+    /* Creates space between cards for scrolling effect */
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.scrolling-cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+}
