@@ -1,12 +1,14 @@
 .sticky-top {
     position: sticky;
-    top: 100px;
+    top: 150px;
+    z-index: 1;
+    padding-bottom: 12px;
 }
 
 .scrolling-cards {
     position: relative;
     perspective: 1000px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .scrolling-cards .card {
