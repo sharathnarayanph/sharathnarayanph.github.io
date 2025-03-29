@@ -24,3 +24,16 @@
     transform: translateY(-10px);
     box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
 }
+
+.hero-animation-img {
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.hero-dashboard-img img {
+    border-radius: 12px;
+}
+
+.hero-dashboard-img {
+    text-align: center;
+}
