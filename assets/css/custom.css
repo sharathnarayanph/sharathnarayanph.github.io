@@ -37,3 +37,58 @@
 .hero-dashboard-img {
     text-align: center;
 }
+
+/* Responsive styles for navbar */
+@media (max-width: 991.98px) {
+    .navbar-logo {
+        max-height: 32px !important;
+    }
+
+    .navbar-brand {
+        padding: 0.5rem 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-logo {
+        max-height: 28px !important;
+    }
+
+    .navbar-brand {
+        padding: 0.25rem 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-logo {
+        max-height: 24px !important;
+    }
+
+    .navbar-brand {
+        padding: 0.25rem 0;
+        margin-right: 0.5rem !important;
+    }
+
+    .app-brand-text {
+        font-size: 0.9rem !important;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem !important;
+        margin-right: 0.25rem !important;
+    }
+
+    .navbar-toggler i {
+        font-size: 1.25rem !important;
+    }
+
+    .navbar-nav .btn-primary {
+        padding: 0.375rem 0.75rem !important;
+        font-size: 0.875rem !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.875rem !important;
+    }
+}
